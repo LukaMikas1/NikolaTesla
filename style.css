@@ -1,0 +1,299 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #0f1b42;
+    justify-content: space-between;
+}
+
+.ime_logo {
+    padding-left: 100px;
+    color: white;
+}
+
+.linkovi{
+    font-size: 20px;
+    margin-right: 25px;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+}
+
+.Ni{
+    color: white;
+}
+
+.tesla_velika{
+    padding-left: 7.9vw;
+    margin-right: -8.2vw;
+    width: 40vw;
+}
+
+.logo{
+    border-radius: 20px;
+    margin-right: 140px;
+    padding-right: 0px;
+    width: 60px;
+}
+
+.divcitat{
+    padding-top: 100px;
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.citat_ime{
+    font-size: 100px;
+    margin: 70px 0px -50px 50px;
+    flex: 1;
+    color: #0f1b42;
+}
+
+.citat{
+    font-size: 40px;
+    margin-left: 250px;
+    width: 800px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-width: 5px;
+}
+
+.pocetak{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.prvidiv{
+    display: flex;
+}
+
+.ptekst{
+    height: fit-content;
+    width: 600px;
+    margin-left: 200px;
+    border-style: solid;
+    border-color: limegreen;
+    padding: 20px 20px 20px 20px;
+    border-radius: 35px;
+    border-width: 7px;
+    font-size: 17px;
+}
+
+.smiljan{
+    margin-top: 30px;
+    height: 15vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.niks{
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    border-width: 4px;
+    border-radius: 20px 20px 20px 0px;
+    margin: 200px 0 0 -100px;
+    height: 15vw;
+}
+
+.zeleno{
+    width: 400px;
+    height: 300px;
+    background-color: limegreen;
+    border-radius: 30px;
+    margin: 100px -500px 0 0px;  
+}
+
+.prazno{
+    width: 15vw;
+    height: 6vw;
+}
+
+.postignuca{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.pnaslov, .dnaslov, .tnaslov{
+    font-weight: bold;
+    justify-content: center;
+    font-size: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.tnaslov{
+    margin-top: 0px;
+    padding-top: 120px;
+}
+
+.ppostignuce, .dpostignuce, .tpostignuce{
+    display: flex;
+}
+
+.tpostignuce{
+    margin-bottom: 0;
+}
+
+.dtekst{
+    font-size: 20px;
+    margin: 80px 100px 0 100px;
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    padding: 20px 20px 20px 20px;
+    border-radius: 0px 0 0 20px;
+    border-width: 6px;
+    border-color: cadetblue;
+}
+
+.plavo{
+    height: 300px;
+    width: 600px;
+    background-color: cadetblue;
+    margin: 30px -950px 0 100px;
+    border-bottom-left-radius: 20px;
+}
+
+.zavojnica{
+    margin-left: 600px;
+    height: 100%;
+}
+
+
+.magpolje{
+    width: 30%;
+    height: 30%;
+}
+
+.tpostignuce{
+    margin-top: 5vw;
+}
+
+.ttekst{
+    font-size: 20px;
+    margin: 80px 100px 0 100px;
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-top: none;
+    padding: 20px 20px 20px 20px;
+    border-radius: 0px 0 0 20px;
+    border-width: 6px;
+    border-color: red;
+}
+
+.crveno{
+    height: 6px;
+    width: 1000px;
+    background-color: red;
+    margin: 0px 0px 6vw 850px;
+    border-bottom-left-radius: 20px;
+}
+
+.energija{
+    margin-left: 4vw;
+    width: 25%;
+    height: 25%;
+}
+
+.ctekst{
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    padding: 20px 20px 20px 20px;
+    border-width: 6px;
+    border-color: yellow;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    margin-right: 10vw;
+}
+
+.zanimljivosti{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.scroll{
+    height: 16vw;
+}
+
+.zanimljivosti {
+    display: flex;
+    gap: 125px;
+    padding-top: 8vw;
+    justify-content: center;
+}
+
+.kutija {
+    background-color: #dcdcdc;
+    width: 300px;
+    height: 160px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Zanim {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 10px;
+    opacity: 1;
+  }
+  .ztekst {
+    position: absolute;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .kutija:hover .ztekst {
+    opacity: 1;
+  }
+
+  .kutija:hover .Zanim{
+    opacity: 0;
+  }
